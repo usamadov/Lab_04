@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal">
+
+<androidx.fragment.app.FragmentContainerView
+    android:id="@+id/map_fragment"
+    android:name="edu.msudenver.cs3013.lab_4.MapsFragment"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="2" />
+
+<androidx.fragment.app.FragmentContainerView
+    android:id="@+id/detail_fragment"
+    android:name="edu.msudenver.cs3013.lab_4.DetailFragment"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1" />
+
+</LinearLayout>
