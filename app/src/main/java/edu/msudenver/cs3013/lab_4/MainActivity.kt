@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // main activity
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
                 .add(R.id.maps_fragment, MapsFragment())
